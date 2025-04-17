@@ -1,0 +1,1 @@
+Nous voulons faire un site de gallerie manga qui puisse enregistrer le contact d'une personne et les images qu'ils préfèrent
