@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background: navajowhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav {
+    background: grey; 
+    width: 33.33%;
+}
+
+main {
+    background-color: blue;
+    display: flex;
+    width: 33.33%;
+}
+
+aside {
+    background-color: grey;
+    display: flex;
+    width: 33.33%;
+}
+
+footer {
+    background: navajowhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    width: 65px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.gallerie {
+    background-color:grey;
+}
+.aside{
+    background-color: gray;
+}
+
