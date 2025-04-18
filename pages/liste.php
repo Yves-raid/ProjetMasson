@@ -1,7 +1,7 @@
 <?php include '../inc/header.php'; ?>
     <main>
         <h2>Vérification de contact</h2>
-        <table>
+        <table border=1>
             <caption></caption>
             <thead>
                 <tr>
@@ -27,13 +27,13 @@
                     <td>
                         <form action="update.php" method="post">
                             <input type="hidden" name="id" value="<?=$i['id']?>">
-                            <input type="image" src="../images/update.svg" alt="SEO et aveugle" classe="svg">
+                            <input type="image" src="../images/update.svg" alt="SEO et aveugle" classe="svg" width=15px>
                         </form>
                     </td>
                     <td>
                         <form action="delete.php" method="post">
                             <input type="hidden" name="id" value="<?=$i['id']?>">
-                            <input type="image" src="../images/close.svg" alt="SEO et aveugle" classe="svg">
+                            <input type="image" src="../images/close.svg" alt="SEO et aveugle" classe="svg" width=15px>
                         </form>
                     </td>
 
