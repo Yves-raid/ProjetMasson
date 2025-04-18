@@ -112,3 +112,9 @@ footer {
     margin-bottom: 40px;
     border: 2px solid white;
 }
+
+.titreanime {
+    font-size: 22px;
+    margin: 10px 0;
+    text-decoration: underline;
+}
